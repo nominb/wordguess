@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+body, .jumbotron {
+    background: silver;
+}
+
+.jumbotron {
+    max-width: 650px;
+    margin: 0 auto;
+}
+
+.jumbotron img {
+    width: 100%;
+    height: auto;
+}
+
+.panel {
+    background: #1eb2c9;
+}
+
+.no-background {
+    background-color: inherit;
+}
+
+.panel-heading {
+    font-weight: bold;
+    background: silver;
+    color: #e62a39;
+    font-size: calc(1vw + 1vh);
+}
+
+.panel-body {
+    min-height: 67px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+}
+
+#wrongGuesses {
+    font-size: 1.5vw;
+}
+
+}
+
+
